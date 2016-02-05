@@ -1,6 +1,6 @@
 backend "consul" {
   address = "consul:8500"
-  advertise_addr = "http://server-2:8200"
+  advertise_addr = "http://server-2.vault.default.corngoodness.com:8200"
 }
 
 listener "tcp" {

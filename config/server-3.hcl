@@ -1,6 +1,6 @@
 backend "consul" {
   address = "consul:8500"
-  advertise_addr = "http://vault-3:8200"
+  advertise_addr = "http://server-3:8200"
 }
 
 listener "tcp" {

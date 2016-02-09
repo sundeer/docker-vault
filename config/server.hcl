@@ -1,5 +1,5 @@
-backend "file" {
-  file = /vaultdata
+backend "consul" {
+  address = "consul:8500"
 }
 
 listener "tcp" {

@@ -1,5 +1,4 @@
 backend "s3" {
-  bucket = "rancher-8836397264857"
 }
 
 listener "tcp" {

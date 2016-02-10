@@ -1,6 +1,5 @@
-backend "consul" {
-  address = "consul:8500"
-  advertise_addr = "http://0.0.0.0:8500"
+backend "s3" {
+  bucket = "rancher-8836397264857"
 }
 
 listener "tcp" {

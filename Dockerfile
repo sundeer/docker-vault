@@ -1,7 +1,7 @@
 FROM progrium/busybox
 MAINTAINER Stephane Jourdan <fasten@fastmail.fm>
 ENV REFRESHED_AT 2016-01-28
-ENV VAULT_VERSION 0.4.1
+ENV VAULT_VERSION 0.5.0
 
 # x509 expects certs to be in this file only.
 ADD https://raw.githubusercontent.com/bagder/ca-bundle/master/ca-bundle.crt /etc/ssl/certs/ca-certificates.crt

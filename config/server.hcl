@@ -2,7 +2,7 @@ backend "s3" {
 }
 
 ha_backend "consul" {
-  address = "consul-1:8500"
+  address = "consul:8500"
   advertise_addr = "http://0.0.0.0:8200"
 }
 

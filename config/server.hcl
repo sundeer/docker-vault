@@ -1,6 +1,9 @@
-backend "consul" {
+backend "s3" {
+}
+
+ha_backend "consul" {
   address = "consul:8500"
-  advertise_addr = "http://0.0.0.0:8500"
+  advertise_addr = "http://vault:8200"
 }
 
 listener "tcp" {
